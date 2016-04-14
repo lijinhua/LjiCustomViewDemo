@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.lijinhua.ljicustomviewdemo.view.mediumviewgroup.HorizontalBarView
+        android:id="@+id/layout_one"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="30dp"
+        android:minHeight="22dp"
+        app:bar_fillPercentage="50.0"
+        app:bar_text="Yes we can: 30%"
+        app:bar_textPadding="8dp"
+        app:bar_emptyColor="#bcb6b6"
+        app:bar_fillTextColor="#ffffff"
+        app:bar_textSize="10sp" />
+</RelativeLayout>

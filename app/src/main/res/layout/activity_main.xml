@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnFaceBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="看facebook是如何自定义ViewGroup的" />
+
+    <Button
+        android:id="@+id/btnMedimViewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewGroup提高性能" />
+
+    <Button
+        android:id="@+id/btnMedimView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="media网自定义View" />
+    <Button
+        android:id="@+id/btnGoogleCustomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="googleDemo自定义View" />
+    <Button
+        android:id="@+id/btnGoogleCustomGroupView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="googleDemo自定义ViewGroup" />
+    <Button
+        android:id="@+id/btnTagLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TagLayout" />
+</LinearLayout>
