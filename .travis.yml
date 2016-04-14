@@ -6,10 +6,8 @@ env:
     - ANDROID_TARGET=android-23 ANDROID_ABI=armeabi
   global:
    - ADB_INSTALL_TIMEOUT=8
-  android:
-   components:
-    #- tools
-    #- platform-tools
+ android:
+  components:
     - build-tools-23.0.1
     - android-23
     - extra-android-m2repository
